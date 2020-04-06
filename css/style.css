@@ -1,0 +1,63 @@
+@font-face{
+    font-family: montserrat;
+    src: url(font/montserrat-regular-webfont.woff);
+}
+*{
+    font-family: montserrat, Arial, sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.quemsomos{
+    font-size: 18px;
+    color: rgb(240,255,240);
+    background-color: rgb(47, 79, 79);
+}
+.servicos{
+    font-size: 18px;
+    color: rgb(240,255,240);
+    background-color: rgb(17, 44, 44);
+}
+.parceiros{
+    font-size: 18px;
+    color: rgb(240,255,240);
+    background-color: rgb(47, 79, 79);
+}
+.presenca{
+    font-size: 18px;
+    color: rgb(240,255,240);
+    background-color: rgb(17, 44, 44);
+}
+.contato{
+    font-size: 18px;
+    color: rgb(240,255,240);
+    background-color: rgb(47, 79, 79);
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.margin2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.rodape{
+    background-color: black;
+    color: whitesmoke;
+}
+.logos{
+    font-size: 14px;
+}
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
